@@ -2,11 +2,15 @@
 title: Home
 ---
 
-# Your Lab Slogan
+# Nicole Sarna
+## Biomedical Engineering PhD Student, Vanderbilt University
+### National Science Foundation Graduate Research Fellow
+
 
 [Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
 Spend less time reinventing the wheel, and more time running your lab.
 
+{% comment %}
 {%
   include link.html
   type="github"
@@ -15,12 +19,14 @@ Spend less time reinventing the wheel, and more time running your lab.
   link="greenelab/lab-website-template"
   style="button"
 %}
+{ % endcomment %}
+
 {%
   include link.html
   type="docs"
   icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
+  text="Download CV"
+  link="https://https://www.nicolesarna.com/images/Sarna_Nicole_CV.pdf"
   style="button"
 %}
 {:.center}
@@ -31,6 +37,7 @@ Spend less time reinventing the wheel, and more time running your lab.
 
 {% include section.html %}
 
+{ % comment %}
 # Highlights
 
 {% capture text %}
@@ -101,3 +108,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{ % endcomment %}
